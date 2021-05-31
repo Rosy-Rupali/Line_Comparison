@@ -7,7 +7,7 @@ public class LineComparision {
 	public static void main(String[] args) {
 		double result=coordinates();
 		System.out.println(result);
-
+		length();
 	}
 	public static double coordinates() {
 		System.out.println("Welcome to Line Comparison Computation program");
@@ -24,4 +24,13 @@ public class LineComparision {
 		return lengthOfLine;
 	}
 
+	public static void length() {
+		double line1=coordinates();
+		double line2=coordinates();
+		if (line1 == line2) 
+			System.out.println("Both lines are of same length");
+			else
+				System.out.println("Both the lines are of different length");
+		
+	}
 }
