@@ -26,11 +26,16 @@ public class LineComparision {
 
 	public static void length() {
 		double line1=coordinates();
+		String s1=Double.toString(line1);
 		double line2=coordinates();
-		if (line1 == line2) 
+		String s2=Double.toString(line2);
+		if (s1.equals(s2)) 
 			System.out.println("Both lines are of same length");
 			else
 				System.out.println("Both the lines are of different length");
 		
 	}
+	
+	
+	
 }
